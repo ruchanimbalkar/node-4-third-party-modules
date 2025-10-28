@@ -35,6 +35,7 @@ if (year != undefined) {
 }
 
 //Test cases
+//console.log("Test cases:");
 // const check2000 = moment([2000]).isLeapYear(); // true
 // console.log("is 2000 a leap year?", check2000);
 // const check2024 = moment([2024]).isLeapYear(); // true
