@@ -1,13 +1,17 @@
 {
   "name": "leap-year",
   "version": "1.0.0",
-  "description": "This project is for third-party Node modules, including how to use and install them with npm.",
+  "description": "This Node application will check if the given year is a leap year",
+  "type": "module",
   "main": "leap-year.js",
+  "dependencies": {
+    "moment": "^2.30.1"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "type": "module"
+  "license": "ISC"
 }
